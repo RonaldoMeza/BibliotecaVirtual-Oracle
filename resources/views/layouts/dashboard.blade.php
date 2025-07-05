@@ -20,9 +20,11 @@
 
             @if($user && $user->roles->contains('name','BIBLIOTECARIO'))
                 <a href="{{ route('dashboard') }}" class="block p-2 rounded hover:bg-gray-200">🏠 Dashboard</a>
-                <a href="{{ route('admin.libros.index') }}" class="block p-2 rounded hover:bg-gray-200">📘 Libros</a>
                 <a href="{{ route('admin.usuarios.index') }}" class="block p-2 rounded hover:bg-gray-200">👥 Usuarios</a>
-                {{-- <a href="{{ route('admin.prestamos.index') }}" class="block p-2 rounded hover:bg-gray-200">📖 Préstamos</a> --}}
+                <a href="{{ route('admin.categorias.index') }}" class="block p-2 rounded hover:bg-gray-200">🏷 Categorías</a>
+                <a href="{{ route('admin.autores.index') }}" class="block p-2 rounded hover:bg-gray-200">👥 Autores</a>
+                <a href="{{ route('admin.libros.index') }}" class="block p-2 rounded hover:bg-gray-200">📘 Libros</a>
+                <a href="{{ route('admin.prestamos.index') }}" class="block p-2 rounded hover:bg-gray-200">📖 Préstamos</a>
             @endif
 
             <form method="POST" action="{{ route('logout') }}">
