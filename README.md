@@ -41,19 +41,20 @@ Este proyecto implementa un sistema de gestión de biblioteca con autenticación
 
 3. **Configura el entorno .env**
 
-    Copia el archivo de ejemplo y configura tu conexión a Oracle:
+Copia el archivo de ejemplo y configura tu conexión a Oracle:
 
-   cp .env.example .env
-   php artisan key:generate
+    cp .env.example .env
+    php artisan key:generate
 
-    En el .env:
 
-        DB_CONNECTION=oracle
-        DB_HOST=localhost
-        DB_PORT=1521
-        DB_DATABASE=xe
-        DB_USERNAME=USER03
-        DB_PASSWORD=tecsup
+En el .env:
+
+    DB_CONNECTION=oracle
+    DB_HOST=localhost
+    DB_PORT=1521
+    DB_DATABASE=xe
+    DB_USERNAME=USER03
+    DB_PASSWORD=tecsup
 
 5. **Configura el proveedor Yajra (si aplica)**
 
