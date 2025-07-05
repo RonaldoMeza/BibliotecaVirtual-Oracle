@@ -28,10 +28,10 @@ Este proyecto implementa un sistema de gestión de biblioteca con autenticación
 
 ## 🔧 Instalación
 
-1. **Clona el repositorio**  
-```bash
-git clone https://github.com/RonaldoMeza/BibliotecaVirtual-Oracle.git
-cd BibliotecaVirtual-Oracle
+1. **Clona el repositorio**
+
+        git clone https://github.com/RonaldoMeza/BibliotecaVirtual-Oracle.git
+        cd BibliotecaVirtual-Oracle
 
 
 2. **Instala dependencias PHP y JS**
@@ -92,9 +92,9 @@ cd BibliotecaVirtual-Oracle
 
 
 👥 Cuentas de Prueba
-Rol	Email	Contraseña
-Bibliotecario	admin@example.com  admin123
-Usuario	user@example.com  usuario123
+Rol	  Email	  Contraseña
+Bibliotecario	admin@gmail.com  admin123
+Usuario	usuario@gmail.com  usuario123
 
 
 ⚠️ Notas Especiales
