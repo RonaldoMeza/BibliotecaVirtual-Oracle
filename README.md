@@ -30,13 +30,13 @@ Este proyecto implementa un sistema de gestión de biblioteca con autenticación
 
 1. **Clona el repositorio**
 
-   git clone https://github.com/RonaldoMeza/BibliotecaVirtual-Oracle.git
-   cd BibliotecaVirtual-Oracle
+        git clone https://github.com/RonaldoMeza/BibliotecaVirtual-Oracle.git
+        cd BibliotecaVirtual-Oracle
    
 2. **Instala dependencias PHP y JS**
 
-   composer install
-   npm install && npm run build
+       composer install
+       npm install && npm run build
 
 3. **Configura el entorno .env**
 
@@ -55,7 +55,7 @@ En el .env:
     DB_USERNAME=USER03
     DB_PASSWORD=tecsup
 
-5. **Configura el proveedor Yajra (si aplica)**
+4. **Configura el proveedor Yajra (si aplica)**
 
     Asegúrate de tener en tu config/database.php la conexión a Oracle definida como:
 
@@ -72,7 +72,7 @@ En el .env:
             'prefix_schema'  => env('DB_SCHEMA_PREFIX', ''),
         ],
 
-6. **Ejecuta migraciones y seeders (Asegurate de tener creado la base de datos user03 configurado en los pasos anteriores)**
+5. **Ejecuta migraciones y seeders (Asegurate de tener creado la base de datos user03 configurado en los pasos anteriores)**
 
         php artisan migrate --database=oracle --seed
 
@@ -84,7 +84,7 @@ En el .env:
 
     Categorías, autores, libros de ejemplo
 
-7. **Corre el servidor**
+6. **Corre el servidor**
 
         php artisan serve
 
