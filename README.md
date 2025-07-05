@@ -30,16 +30,15 @@ Este proyecto implementa un sistema de gestión de biblioteca con autenticación
 
 1. **Clona el repositorio**
 
-   git clone https://github.com/RonaldoMeza/BibliotecaVirtual-Oracle.git
-   cd BibliotecaVirtual-Oracle
+        git clone https://github.com/RonaldoMeza/BibliotecaVirtual-Oracle.git
+        cd BibliotecaVirtual-Oracle
+   
+3. **Instala dependencias PHP y JS**
 
+        composer install
+        npm install && npm run build
 
-2. **Instala dependencias PHP y JS**
-
-    composer install
-    npm install && npm run build
-
-3. **Configura el entorno .env**
+4. **Configura el entorno .env**
 
 Copia el archivo de ejemplo y configura tu conexión a Oracle:
 
