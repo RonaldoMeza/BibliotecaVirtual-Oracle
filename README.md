@@ -43,8 +43,8 @@ Este proyecto implementa un sistema de gestión de biblioteca con autenticación
 
     Copia el archivo de ejemplo y configura tu conexión a Oracle:
 
-        cp .env.example .env
-        php artisan key:generate
+   cp .env.example .env
+   php artisan key:generate
 
     En el .env:
 
@@ -55,7 +55,7 @@ Este proyecto implementa un sistema de gestión de biblioteca con autenticación
         DB_USERNAME=USER03
         DB_PASSWORD=tecsup
 
-4. **Configura el proveedor Yajra (si aplica)**
+5. **Configura el proveedor Yajra (si aplica)**
 
     Asegúrate de tener en tu config/database.php la conexión a Oracle definida como:
 
@@ -72,7 +72,7 @@ Este proyecto implementa un sistema de gestión de biblioteca con autenticación
             'prefix_schema'  => env('DB_SCHEMA_PREFIX', ''),
         ],
 
-5. **Ejecuta migraciones y seeders (Asegurate de tener creado la base de datos user03 configurado en los pasos anteriores)**
+6. **Ejecuta migraciones y seeders (Asegurate de tener creado la base de datos user03 configurado en los pasos anteriores)**
 
         php artisan migrate --database=oracle --seed
 
@@ -84,7 +84,7 @@ Este proyecto implementa un sistema de gestión de biblioteca con autenticación
 
     Categorías, autores, libros de ejemplo
 
-6. **Corre el servidor**
+7. **Corre el servidor**
 
         php artisan serve
 
